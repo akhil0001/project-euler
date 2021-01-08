@@ -1,0 +1,1 @@
+export const pipe = (...fns: ((...args:unknown[]) => void)[]) => (arg: unknown):unknown => fns.reduce((value, fn) => fn(value), arg);
