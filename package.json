@@ -9,5 +9,8 @@
   "scripts": {
     "lint": "eslint . --ext .ts",
     "dev": "ts-node src/problem-$NUM.ts"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.21"
   }
 }
